@@ -527,6 +527,7 @@ def train_model(X_normalized, y_balanced, batch_size=128, epochs=250, learning_r
 
     print(f'Training completed. Best F1-score: {best_f1_score:.4f}')
     return model
+
 def main():
     parser = argparse.ArgumentParser(description="Load, prepare, and balance data from H5 files.")
     parser.add_argument("path", help="Path to the directory containing H5 files")
