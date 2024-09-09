@@ -67,10 +67,10 @@ python main_preprocess.py <input_directory> <output_file> --time_span <days> --c
 Arguments:
 input_directory: Path to the directory containing the generated planetary systems in JSON format.
 output_file: Path where the processed periodograms will be saved as an H5 file.
---time_span: The time span for the simulation in days (optional, default is auto-generated based on real data).
---chunk_size: The number of systems to process in each chunk (default: 10,000).
---entropy: A measure between 0 and 1 of observation variability (default: 1).
---max_files: The maximum number of files to process (default: 20,000).
+- time_span: The time span for the simulation in days (optional, default is auto-generated based on real data).
+- chunk_size: The number of systems to process in each chunk (default: 10,000).
+- entropy: A measure between 0 and 1 of observation variability (default: 1).
+- max_files: The maximum number of files to process (default: 20,000).
 Example:
 
 ```bash
